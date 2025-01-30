@@ -2,7 +2,9 @@
 
   font-family: "Sora", serif !important;
 }
-
+.adlam-display{
+  font-family: "ADLaM Display", serif;
+}
 /* banner section  */
 
 @keyframes slideLeftToRight {
