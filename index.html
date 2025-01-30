@@ -26,41 +26,56 @@
     <!-- Font Awesome  -->
 </head>
 
-<body class="font-sora">
+<body class="font-sora box-border">
     <!-- header section  -->
-    <header class="bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3]">
+    <header class="bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3] truncate">
         <!-- navbar section  -->
-        <nav class="container mx-auto md:px-0 px-2 md:pt-6 pt-1">
+        <nav class="container mx-auto md:px-0 px-0 md:pt-0 pt-0">
             <div class="navbar bg-transparent">
                 <div class="navbar-start">
-                    <a class="md:block hidden " href="#"><img src="./assets/images/logo-header.png" alt="" srcset=""></a>
+                    <a class="md:block hidden " href="#"><img src="./assets/images/logo-header.png" alt=""
+                            srcset=""></a>
                     <a class="md:hidden block" href="#"><img src="./assets/images/mobile-logo.png" alt="" srcset=""></a>
                 </div>
-                <div class="navbar-center hidden lg:flex">
+                <div class="navbar-end hidden lg:flex mr-14">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a href="#product">Product</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact us</a></li>
+                        <li><a href="#product" class="font-sora text-xl text-[#111111] hover:bg-transparent">Product</a>
+                        </li>
+                        <li><a href="#services"
+                                class="font-sora text-xl text-[#111111] hover:bg-transparent">Services</a></li>
+                        <li><a href="#contact" class="font-sora text-xl text-[#111111] hover:bg-transparent">Contact
+                                us</a></li>
                     </ul>
                 </div>
                 <!-- Navbar end  -->
-                <div class="navbar-end">
-                    <a class="btn btn-success hidden md:block">Button</a>
-                        <!-- mobile navbar  -->
-                        <div class="dropdown">
-                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                                <!-- mobile toggle  -->
-                                <i class="fa-solid fa-bars text-2xl"></i>
-                                <!-- mobile toggle  -->
-                            </div>
-                            <ul tabindex="0"
-                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                                <li><a href="#product">Product</a></li>
-                                <li><a href="#services">Services</a></li>
-                                <li><a href="#contact">Contact us</a></li>
-                            </ul>
+                <div class="navbar-end  ">
+                    <ul class="flex justify-center items-center">
+                        <li class="hidden lg:flex"><a href="#"><i
+                                    class="fa-solid fa-magnifying-glass text-2xl text-[#111111]"></i></li>
+                        <li class="hidden lg:flex"><a href="#"><i
+                                    class="fa-solid fa-cart-shopping text-2xl pl-6 text-[#111111]"></i></a></li>
+                        <li class="ml-7 mr-3"> <a
+                                class="btn btn-success py-2 px-8  hidden md:flex bg-transparent border-[#179800] font-sora  text-xl text-[#111111] leading-none hover:bg-transparent">Login</a>
+                        </li>
+                        <li class="ml-3 mr-3"> <a
+                                class="btn btn-success py-2 px-8  hidden md:flex bg-[#179800] border-[#179800] font-sora  text-xl text-[#fff] leading-none hover:bg-[#179800]">Register</a>
+                        </li>
+                    </ul>
+                    <!-- mobile navbar  -->
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <!-- mobile toggle  -->
+                            <i class="fa-solid fa-bars text-2xl"></i>
+                            <!-- mobile toggle  -->
                         </div>
-                        <!-- mobile navbar  -->
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a href="#product">Product</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <!-- mobile navbar  -->
                 </div>
                 <!-- Navbar end  -->
             </div>
