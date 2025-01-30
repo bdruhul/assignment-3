@@ -1,4 +1,43 @@
 .font-sora {
 
-    font-family: "Sora", serif !important;
+  font-family: "Sora", serif !important;
+}
+
+/* banner section  */
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(-150%);
   }
+
+  50% {
+    transform: translateX(-10%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-left {
+  animation: slideLeftToRight 3s ease-in-out;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(150%);
+  }
+
+  50% {
+    transform: translateX(10%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-right {
+  animation: slideRightToLeft 3s ease-in-out;
+}
+/* banner section  */
