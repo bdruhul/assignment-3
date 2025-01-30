@@ -1,3 +1,11 @@
 .font-sora {
+
     font-family: "Sora", serif !important;
+  }
+  *{
+    max-width: 1600px !important;
+  }
+  .container{
+    width: 100px;
+    margin: 0 auto;
   }

@@ -10,10 +10,6 @@
     <!-- Favicons -->
     <link rel="shortcut icon" href="./assets/images/mobile-logo.png" type="image/x-icon">
     <!-- Favicons -->
-    <!-- Tailwind and DaisyUi CDN link  -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Tailwind and DaisyUi CDN link  -->
     <!-- Sora Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,13 +23,17 @@
     <!-- css link  -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <!-- css link  -->
+    <!-- Tailwind and DaisyUi CDN link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind and DaisyUi CDN link  -->
 </head>
 
 <body class="font-sora box-border">
     <!-- header section  -->
     <header class="bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3] truncate">
         <!-- navbar section  -->
-        <nav class="container mx-auto md:px-0 px-0 md:pt-0 pt-0">
+        <nav class="container mx-auto md:px-0 px-0 md:pt-3 pt-0 relative">
             <div class="navbar bg-transparent">
                 <div class="navbar-start">
                     <a class="md:block hidden " href="#"><img src="./assets/images/logo-header.png" alt=""
@@ -68,14 +68,14 @@
                         </li>
                     </ul>
                     <!-- mobile navbar  -->
-                    <div class="dropdown relative">
+                    <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                             <!-- mobile toggle  -->
                             <i class="fa-solid fa-bars text-2xl"></i>
                             <!-- mobile toggle  -->
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-white rounded z-[1] mt-3 w-52 p-5 shadow absolute transform -translate-x-[100%] flex justify-center items-center gap-2">
+                            class="menu menu-sm dropdown-content bg-white rounded z-[10] mt-3 w-52 p-5 shadow absolute transform -translate-x-[100%] flex justify-center items-center gap-2">
                             <li><a href="#product">Product</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#contact">Contact us</a></li>
@@ -87,6 +87,23 @@
             </div>
         </nav>
         <!-- navbar section  -->
+        <!-- banner section  -->
+        <section class=" mt-24 pl-3 container">
+            <!-- banner top content  -->
+            <div class="top content text-center ">
+                <h1 class="font-sora text-6xl max-w-xl mx-auto"><span>Freshness You Can</span>Count On, Prices You’ll
+                    Love!</h1>
+                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
+                    covered every day!</p>
+            </div>
+            <!-- banner top content  -->
+            <!-- banner img  -->
+            <div class="">
+                <img src="./assets/images/hero-vegetables.png" alt="" srcset="" class="w-full">
+            </div>
+            <!-- banner img  -->
+        </section>
+        <!-- banner section  -->
     </header>
     <!-- header section  -->
 </body>
