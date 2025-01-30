@@ -7,7 +7,7 @@
     <!-- website title  -->
     <title>Nature's Platter</title>
     <!-- website title  -->
-      <!-- Favicons -->
+    <!-- Favicons -->
     <link rel="shortcut icon" href="./assets/images/mobile-logo.png" type="image/x-icon">
     <!-- Favicons -->
     <!-- Tailwind and DaisyUi CDN link  -->
@@ -25,8 +25,49 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Font Awesome  -->
 </head>
-<body class="font-sora">
 
+<body class="font-sora">
+    <!-- header section  -->
+    <header class="bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3]">
+        <!-- navbar section  -->
+        <nav class="container mx-auto md:px-0 px-2 md:pt-6 pt-1">
+            <div class="navbar bg-transparent">
+                <div class="navbar-start">
+                    <a class="md:block hidden " href="#"><img src="./assets/images/logo-header.png" alt="" srcset=""></a>
+                    <a class="md:hidden block" href="#"><img src="./assets/images/mobile-logo.png" alt="" srcset=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </ul>
+                </div>
+                <!-- Navbar end  -->
+                <div class="navbar-end">
+                    <a class="btn btn-success hidden md:block">Button</a>
+                        <!-- mobile navbar  -->
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <!-- mobile toggle  -->
+                                <i class="fa-solid fa-bars text-2xl"></i>
+                                <!-- mobile toggle  -->
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a href="#product">Product</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <!-- mobile navbar  -->
+                </div>
+                <!-- Navbar end  -->
+            </div>
+        </nav>
+        <!-- navbar section  -->
+    </header>
+    <!-- header section  -->
 </body>
 
 </html>
